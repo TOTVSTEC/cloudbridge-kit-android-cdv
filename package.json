@@ -21,6 +21,9 @@
     }
   ],
   "license": "MIT",
+  "devDependencies": {
+    "totvstec-tools": "^1.0.6"
+  },
   "scripts": {
     "release": "totvstec release",
     "release:minor": "totvstec release minor",
