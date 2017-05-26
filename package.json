@@ -1,0 +1,29 @@
+{
+  "name": "cloudbridge-kit-android-cdv",
+  "version": "0.0.1",
+  "description": "A tool for creating and developing CloudBridge android apps.",
+  "homepage": "http://www.totvs.com/",
+  "keywords": [
+    "cloudbridge",
+    "mobile",
+    "app",
+    "hybrid",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/totvstec/cloudbridge-kit-android-cdv.git"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Otto Bolognani",
+      "email": "daniel.bolognani@totvs.com.br"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "release": "totvstec release",
+    "release:minor": "totvstec release minor",
+    "release:major": "totvstec release major"
+  }
+}
