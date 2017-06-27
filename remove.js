@@ -6,9 +6,9 @@ task.run = function run(cli, targetPath, projectData) {
 	shelljs = cli.require('shelljs');
 	Q = cli.require('q');
 
-	var target = path.join(targetPath, 'build', 'android');
-
-	shelljs.rm('-rf', target);
+	if (shelljs.exec("cordova platform remove android").code != 0) {
+		throw new Error("Make sure cordova is installed (npm install -g cordova).");
+	}
 
 	return Q();
 };
