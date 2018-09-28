@@ -17,7 +17,7 @@
        under the License.
  */
 
-package io.cordova.hellocordova;
+package <%= project.id %>;
 
 import android.os.Bundle;
 import com.totvs.appserver.*;
